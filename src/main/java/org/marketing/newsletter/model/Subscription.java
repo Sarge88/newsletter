@@ -18,5 +18,9 @@ public class Subscription {
 		this.emailAddress = emailAddress;
 	}
 	
+	@Override
+	public String toString() {
+		return "Subscription [fullName=" + fullName + ", emailAddress=" + emailAddress + "]";
+	}
 	
 }
