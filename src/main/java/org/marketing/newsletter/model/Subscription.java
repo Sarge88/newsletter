@@ -5,6 +5,16 @@ public class Subscription {
 	private String fullName;
 	private String emailAddress;
 	
+	
+	public Subscription() {
+		
+	}
+	
+	public Subscription(String fullName, String emailAddress) {
+		super();
+		this.fullName = fullName;
+		this.emailAddress = emailAddress;
+	}
 	public String getFullName() {
 		return fullName;
 	}
@@ -22,5 +32,6 @@ public class Subscription {
 	public String toString() {
 		return "Subscription [fullName=" + fullName + ", emailAddress=" + emailAddress + "]";
 	}
+	
 	
 }
