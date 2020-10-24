@@ -1,8 +1,18 @@
 package org.marketing.newsletter.model;
 
+import javax.validation.constraints.Email;
+import javax.validation.constraints.NotBlank;
+import javax.validation.constraints.NotNull;
+import javax.validation.constraints.Size;
+
 public class Subscription {
 	
+	@NotBlank
+	@Size(min = 3, max= 30)
 	private String fullName;
+	
+	@NotNull
+	@Email
 	private String emailAddress;
 	
 	
