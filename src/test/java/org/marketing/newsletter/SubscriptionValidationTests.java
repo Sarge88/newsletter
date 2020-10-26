@@ -4,12 +4,14 @@ import javax.validation.ConstraintViolationException;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
-import org.marketing.newsletter.model.Subscription;
-import org.marketing.newsletter.service.SubscriptionService;
-import org.marketing.newsletter.service.exception.SubscriptionAlreadyExistsException;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.junit4.SpringRunner;
+
+import org.marketing.newsletter.model.Subscription;
+import org.marketing.newsletter.service.SubscriptionService;
+import org.marketing.newsletter.service.exception.SubscriptionAlreadyExistsException;
+
 
 @RunWith(SpringRunner.class)
 @SpringBootTest
